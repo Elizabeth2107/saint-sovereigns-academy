@@ -1,0 +1,74 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.section-one{
+    background-image: url("images/photo-1.jpeg");
+    background-position: center;
+    padding: 150px;
+    color: #fff;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.p-heading{
+    text-align: center;
+    font-weight: 500;
+}
+
+.section-two{
+    background-color: #f57242;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.about{
+    padding: 30px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.about-info{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.grade8, .grade10,.services{
+    text-align: center;
+}
+
+.card-one, .card-two{
+    background: #322347;
+    color: #fff;
+}
+
+.card-one{
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.card-two{
+    padding: 20px;
+}
