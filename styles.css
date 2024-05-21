@@ -59,9 +59,15 @@
     text-align: center;
 }
 
-.card-one, .card-two{
+.card-one, .card-two, .prices{
     background: #322347;
     color: #fff;
+    border-radius: 20px;
+}
+
+.subjects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .card-one{
@@ -71,4 +77,24 @@
 
 .card-two{
     padding: 20px;
+}
+
+.tuition{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.price,.registration, .tuition{
+    text-align: center;
+}
+
+.prices{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.registration{
+
 }
