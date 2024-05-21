@@ -63,6 +63,8 @@
     background: #322347;
     color: #fff;
     border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .subjects{
@@ -95,6 +97,8 @@
 
 }
 
-.registration{
-
+.why-image{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
 }
