@@ -24,11 +24,13 @@
     margin-top: 30px;
     color: #fff;
     font-weight: bolder;
+    font-size: 16px;
 }
 
 .p-heading{
     text-align: center;
     font-weight: 500;
+    font-size: 15px;
 }
 
 .section-two{
@@ -40,13 +42,26 @@
 .about{
     padding: 30px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
 
 }
 
+.about-heading{
+    text-align: left;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .about-info{
-    text-align: center;
+    text-align: left;
     padding-bottom: 30px;
+}
+
+.mission{
+    margin-left: 30px;
+    margin-right: 20px;
+
 }
 
 .img{
@@ -55,7 +70,7 @@
     margin: 0 auto;
 }
 
-.grade8, .grade10,.services{
+.grade8, .grade10,.services, .subjects-offered{
     text-align: center;
 }
 
@@ -72,9 +87,20 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.services{
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .card-one{
     padding: 30px;
     margin-bottom: 30px;
+}
+
+.subjects-offered{
+    font-weight: 600;
+    margin-bottom: 25px;
 }
 
 .card-two{
@@ -82,8 +108,9 @@
 }
 
 .tuition{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
     
 }
 
@@ -97,8 +124,38 @@
 
 }
 
+.section-four{
+    margin-bottom: 45px;
+}
+
 .why-image{
-    width: 70%;
+    width: 100%;
     display: block;
     margin: 0 auto;
+}
+
+.contact, .social-media{
+    text-align: center;
+}
+
+.contact{
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.social-media{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.contact-us{
+    background-color: #f57242;
+    color: #fff;
+    padding: 30px;
+}
+
+footer{
+    background: #333;
+    color: #fff;
 }
