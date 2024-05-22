@@ -10,8 +10,8 @@
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light" style="background-color: transparent;" id="nav">
+        <div class="container-fluid " id="container">
           <a class="navbar-brand" href="#"><img src="images/logo-1.jpeg" alt="Logo" width="50px" class="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -19,9 +19,10 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Services</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="#Services">Services</a>
+              <a class="nav-link" href="#Pricing">Pricing</a>
+              <a class="nav-link" href="#Contact">Contact</a>
             </div>
           </div>
         </div>
@@ -36,7 +37,7 @@
 
     <section class="section-two">
       <div class="section-two">
-        <h2 class="about">ABOUT US</h2>
+        <h2 class="about" id="About">ABOUT US</h2>
         <div class="mission">
         <h3 class="about-heading">Our Mission</h3>
         <p class="about-info">
@@ -57,7 +58,7 @@
 
     <section class="section-three">
 
-      <h2 class="services">Our Services</h2>
+      <h2 class="services" id="Services">Our Services</h2>
       <p class="subjects-offered">Subjects offered for different grades.</p>
 
       <div class="cards">
@@ -92,7 +93,7 @@
     <hr>
 
     <section class="section-four">
-      <h2 class="tuition">Pricing</h2>
+      <h2 class="tuition" id="Pricing">Pricing</h2>
 
       <div class="prices">
       <div class="pricing">
@@ -116,18 +117,24 @@
       <img src="images/photo-2.jpeg" alt="image of learners" class="why-image">
 
       <div class="contact-us">
-      <h2 class="contact">Contact Us</h2>
+      <h2 class="contact" id="Contact">Contact Us</h2>
       <div class="contact-info">
         <p class="social-media">Social Media</p>
-        <i class="fa fa-whatsapp" aria-hidden="true"><a href="https://wa.me/27692214966"></a></i>
-        <i class="fa fa-facebook-official" aria-hidden="true"><a href="https://www.facebook.com/share/mT1QBqUg74d6BAEB/?mibextid=LQQJ4d"></a></i>
-        <i class="fa fa-instagram" araia-hidden="true"><a href="https://www.instagram.com/_sovereignsacademy?igsh=MW82cnp5YnFaGdtZg=="></a></i>
+        <div class="icons">
+        <a href="https://wa.me/27692214966" target="_blank"><i class="fa fa-whatsapp icon" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/share/mT1QBqUg74d6BAEB/?mibextid=LQQJ4d" target="_blank"><i class="fa fa-facebook-official icon" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/_sovereignsacademy?igsh=MW82cnp5YnFaGdtZg==" target="_blank"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
+        </div>
+        <p class="social-media">Email</p>
+        <p class="email">xmbatha12691@gmail.com</p>
+        <p class="social-media">Location</p>
+        <p class="location">Kenneth Masikela Sec School(Kwa-Thema)</p>
+        <p class="location">Esibonelwesihle Sec School(Duduza)</p>
       </div>
     </div>
     </section>
 
     <footer>
-      <hr>
       <p>Copyright &copy;2024 saint sovereigns academy. All rights reserved. </p>
     </footer>
     <script src="https://kit.fontawesome.com/eab9fdb587.js" crossorigin="anonymous"></script>

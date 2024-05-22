@@ -6,6 +6,11 @@
     position: fixed;
     width: 100%;
     background-color: #fff;
+    margin: 0;
+}
+
+#container{
+    background: transparent;
 }
 
 .logo{
@@ -15,22 +20,26 @@
 .section-one{
     background-image: url("images/photo-1.jpeg");
     background-position: center;
-    padding: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
     color: #fff;
 }
 
 .heading{
+    color:#fff;
+    font-weight: 900;
+    padding-top: 150px;
     text-align: center;
-    margin-top: 30px;
-    color: #fff;
-    font-weight: bolder;
-    font-size: 16px;
+
+
 }
 
 .p-heading{
+    font-weight: 600;
     text-align: center;
-    font-weight: 500;
-    font-size: 15px;
+    margin: 15px;
+    
 }
 
 .section-two{
@@ -147,15 +156,45 @@
 .social-media{
     margin-bottom: 20px;
     font-weight: 600;
+    color: #322347;
 }
 
 .contact-us{
     background-color: #f57242;
     color: #fff;
     padding: 30px;
+    margin-bottom: 0;
 }
+
+.icon{
+    font-size: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    
+}
+
+.icons{
+      display: flex;
+      justify-content: space-around;
+      
+
+
+}
+
+
+.email,.location{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 
 footer{
     background: #333;
     color: #fff;
+    padding: 15px;
+    margin-top: 0;
+    text-align: center;
 }
